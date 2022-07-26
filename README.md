@@ -38,11 +38,11 @@ However, when testing lot 3 individually, the t-test has a p-value of 0.04168. T
 
 Some features of a car that might be of interest to a consumer include: cost, fuel efficency, horsepower, torque, engine type, safety rating, size/space, reliability rating, and maintenance costs.
 
-A potential study might compare long term maintenance costs of each MechaCar vehicle with a care from a similar class for other major brands. For example, a study would follow a set of 50 Mechacar sedan owners over the course of 5 years from their purchase of a 2020 car, logging their maintenance costs and determining a metric, 5-year maintenance cost.
+A potential study might compare long term maintenance costs of each MechaCar vehicle with a car from a similar class for other major manufacturers. For example, a study would follow a set of 50 MechaCar sedan owners over the course of 5 years from their purchase of a 2022 model, logging their maintenance costs over five years and determining the value of a metric, 5-year maintenance cost.
 
 It would also collect similar data from 50 sedan owners from each 4 of MechaCars major competitors (for example: Toyota, Hyundai, Ford, Honda), for a car in the same class. This would be 200 additional cars total.
 
-Before testing, we would do summary statistics (mean, median, variance, standard deviation) on the 5-year maintenance cost for all 250 cars, for each subset of cars by manufacturer, and for all the competitors cars combined. 
+Before testing, we would do summary statistics (mean, median, variance, standard deviation) on the 5-year maintenance cost for all 250 cars, for each subset of cars by manufacturer, and for all the competitor's cars combined. 
 
 The null hypothesis would be that the mean 5-year maintenance cost of the MechaCar sedan is not statistically different from the mean 5-year maintenance cost of the sedans of the same class from major competitors. 
 
