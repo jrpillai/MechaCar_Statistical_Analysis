@@ -12,3 +12,14 @@ total_summary <- Suspension_Coil %>% summarize(Mean = mean(PSI), Median = median
 # Create lot summary function with groupby()
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 
+# T-test across all manufacturing lots
+t.test(x = Suspension_Coil$PSI, mu = 1500)
+
+# Subset for Lot 1
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot1"), mu = 1500)
+
+# Subset for Lot 2
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot2"), mu = 1500)
+
+# Subset for Lot 3
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3"), mu = 1500)
